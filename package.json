@@ -1,0 +1,14 @@
+{
+  "name": "grunt-process-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Constantine Kim <elegantcoder+nospam@gmail.com> (http://elegantcoder.com)",
+  "license": "ISC"
+}
