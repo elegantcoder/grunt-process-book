@@ -16,7 +16,8 @@ module.exports = function (grunt) {
             options: {
                 open: true,
                 base: ['app'],
-                keepalive: true
+                keepalive: false,
+                livereload: true
             }
         }
     });
@@ -27,6 +28,12 @@ module.exports = function (grunt) {
             files: 'Gruntfile.js',
             options: {
                 reload: true
+            }
+        },
+        html: {
+            files: 'app/*.html',
+            options: {
+                livereload: true
             }
         }
     });
