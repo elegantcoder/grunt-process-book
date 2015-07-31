@@ -9,4 +9,15 @@ module.exports = function (grunt) {
             options: {}
         },
     });
+
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.config('connect', {
+        server: {
+            options: {
+                open: true,
+                base: ['app'],
+                keepalive: true
+            }
+        }
+    });
 };
